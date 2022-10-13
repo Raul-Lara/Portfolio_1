@@ -1,0 +1,49 @@
+.background {
+  background-image: url(./img/backgroun-portfolio.jpg);
+  background-size: cover;
+  background-repeat: repeat;
+  height: 100vh;
+  width: 100;
+  margin: 0;
+  padding: 0;
+}
+.me {
+  width: 600px;
+  height: 600px;
+}
+.About {
+  width: 1100px;
+  color: #fff;
+  /* display: inline-block; */
+  /* margin-top: 50px; */
+  display: flex;
+  gap: 100px;
+  justify-content: space-between;
+  align-items: center;
+}
+.container {
+  padding: 200px 200px 0 200px;
+}
+.my-name {
+  margin-top: 40px;
+  font-size: 40px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.text {
+  font-size: 20px;
+}
+.w-6-h-6 {
+  width: 20px;
+  height: 20px;
+  stroke: #fe5f55;
+}
+li {
+  list-style: none;
+}
+ul {
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0;
+}
